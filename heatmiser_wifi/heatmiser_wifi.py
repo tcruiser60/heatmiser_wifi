@@ -343,8 +343,8 @@ class Heatmiser(HeatmiserTransport):
             info['second'] = dcb[47]
             info['date_time'] = str(info['year']) + '/' + str(info['month']) + '/' + str(info['day_of_month']) + " " + str(info['hour']) + ':' + str(info['minute']) + ':' + str(info['second'])
            
-                info['weekday_triggers'] = self._get_info_time_triggers(dcb, 48)
-                info['weekend_triggers'] = self._get_info_time_triggers(dcb, 60)
+            info['weekday_triggers'] = self._get_info_time_triggers(dcb, 48)
+            info['weekend_triggers'] = self._get_info_time_triggers(dcb, 60)
         if(self.modelNumber == 4):
             info['boost'] = ((dcb[41] << 8) | dcb[42])
             if(dcb[43] == 1):
