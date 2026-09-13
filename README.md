@@ -4,9 +4,12 @@
 ## Overview
 A [Heatmiser](http://www.heatmiser.com/) WiFi Thermostat communication tool and library for python.
 
-Supported Heatmiser Thermostats are DT, DT-E, PRT and PRT-E.
+Supported Heatmiser Thermostats are DT, DT-E WiFi and Touch Screen (TS) Wifi PRT,PRT-E, PRTHW
+Supported Heatmiser Timer are Touch Screen (TS) Wifi TM-1
 
-This release (v1.3.0) adds support for the PRT-HW WiFi thermostat, and adds the following functionality (for PRT-HW, maybe others):
+Release v1.4.0 adds support for the TM-1 WiFi timer, this functions in a similar way to the Hot Water timer on the PRT-HW
+
+Release v1.3.0 adds support for the PRT-HW WiFi thermostat, and adds the following functionality PRT-HW:
 * Setting timers for heating (should work for all models)
 * Setting timers for hot water (for PRT-HW)
 * Setting clock on thermostat with option offset (should work for all models)
